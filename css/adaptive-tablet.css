@@ -29,7 +29,7 @@
 
   .header_padding {
     padding-top: 40px;
-    padding-bottom: 780px;
+    padding-bottom: 881px;
     margin-bottom: 0;
   }
 
@@ -198,9 +198,5 @@
     -o-transform: translate(-110px, 20px);
     transform: translate(-110px, 20px);
     max-width: 750px;
-  }
-
-  .footer {
-    position: fixed !important;
   }
 }

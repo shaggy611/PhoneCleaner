@@ -130,8 +130,7 @@ section {
 .wrapper {
   width: 100%;
   max-width: 100%;
-  overflow-x: hidden;
-  overflow-y: hidden;
+
 }
 
 .wrapper-index-page {
@@ -158,8 +157,7 @@ a:hover {
 
 .header_padding {
   padding-top: 260px;
-  /* padding-bottom: 217px;
-  margin-bottom: 24px; */
+  padding-bottom: 338px;
 }
 
 .header__banner-img-wrapper {
@@ -369,12 +367,8 @@ a:hover {
   width: 994px;
 }
 
-@media (min-width: 1200px) and (max-width: 1400px) {
-  .header__banner-img {
-    width: 1213px;
-    position: absolute;
-    top: -61%;
-    left: -72%;
-  }
+.header {
+  min-height: calc(100vh - 74px);
 }
+
 
