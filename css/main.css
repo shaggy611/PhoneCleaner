@@ -66,17 +66,19 @@ body {
 }
 
 ._heading-main-font {
+  font-style: normal;
   font-weight: bold;
-  font-size: 69px;
+  font-size: 68px;
   line-height: 83px;
-  color: #2e6455;
+  font-feature-settings: 'liga' off;
+  color: #000000;
 }
 
 ._paragraph-main-font {
   font-weight: normal;
   font-size: 18px;
   line-height: 27px;
-  color: #15382f;
+  color: rgba(0, 0, 0, 0.8);
 }
 
 ._second-heading-main-font {
@@ -89,8 +91,8 @@ body {
 ._third-heading-main-font {
   font-weight: bold;
   font-size: 28px;
-  line-height: 34px;
-  color: #2e6455;
+  line-height: 35px;
+  color: #3B71FD;
 }
 
 ._margin-top-60 {
@@ -132,12 +134,12 @@ section {
   overflow-y: hidden;
 }
 
-a:hover {
-  text-decoration: none;
+.wrapper-index-page {
+  height: 100vh;
 }
 
-._hide-on-desktop-mobile {
-  display: none;
+a:hover {
+  text-decoration: none;
 }
 
 .__app-store-download-button {
@@ -149,8 +151,10 @@ a:hover {
   padding: 0 !important;
   z-index: 100;
 }
-
 /*=================================================================*/
+.header__slogan-wrapper {
+  display: flex;
+}
 
 .header_padding {
   padding-top: 138px;
@@ -164,296 +168,47 @@ a:hover {
 }
 
 .header__banner-img {
-  width: 1360px;
+  width: 708px;
   position: absolute;
-  top: -80%;
-  left: -110%;
-  z-index: -1000 !important;
+  top: -39%;
+    left: -34%;
 }
 
 .header__logo {
-  max-width: 119px;
-  margin-bottom: 40px;
+  max-width: 52px;
+  float: left;
+  margin-top: 17px;
 }
 
 .header__heading {
-  width: 692px;
-  text-align: center;
-  margin-bottom: 24px;
+  margin-bottom: 17px;
 }
 
 .header__paragraph {
-  margin-bottom: 43px;
-  text-align: center;
-  width: 545px;
-}
-
-.features_padding {
-  padding-top: 343px;
-  padding-bottom: 160px;
-}
-
-.features__bg-wrapper {
-  position: relative;
-}
-
-.features__background {
-  /* background-image: url("/img/feature-flower-bg.png");
-  background-size: 55%;
-  background-repeat: no-repeat;
-  background-position: 151% 112%;
-  background-position: 388% 105%; */
-}
-
-.features__flower-bg-wrapper {
-  position: absolute;
-  z-index: -100;
-  left: 8.9%;
-  top: 8%;
-}
-
-.features__heading {
-  margin-bottom: 80px;
-}
-
-.features__plant-identific-img {
-  max-width: 473px;
-}
-
-.features__daily-care-img {
-  max-width: 453px;
-  margin-top: 50px;
-  margin-left: 135px;
-}
-
-.features__plant-database-img {
-  max-width: 471px;
-  margin-top: 50px;
-}
-
-.features__how-use-app-img {
-  max-width: 484px;
-  margin-top: 160px;
-}
-
-.features__text-block-wrapper {
-  margin: auto;
-}
-
-.features_second-heading {
-  margin-bottom: 16px;
-  width: 414px;
-}
-
-.features__paragraph {
-  width: 488px;
-}
-
-.features__step-wrapper {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -moz-box;
-  display: -ms-flexbox;
-  display: flex;
-  margin-top: 45px;
-  margin-bottom: 40px;
-}
-
-.features__step {
-  font-weight: bold;
-  font-size: 18px;
-  line-height: 22px;
-  text-align: center;
-  color: #15382f;
-  margin-top: 6px;
-  max-width: 130px;
-  display: block;
-  margin-right: auto;
-}
-
-.how-to-use__steps_wrapper {
-  margin-top: 160px;
-}
-
-.how-to-use__steps_wrapper > .features__paragraph {
-  width: 590px;
-}
-
-.features__step_first {
-  max-width: 120px;
-}
-
-.step > img {
-  max-width: 130px;
-  display: block;
-  margin-right: 70px;
-}
-
-.testimonials_background {
-  background: #f3fafe;
-}
-
-.testimonials_padding {
-  padding-top: 80px;
-  padding-bottom: 60px;
-}
-.testimonials__heading {
-  margin-bottom: 46px;
-  font-size: 48px;
-  line-height: 58px;
-}
-
-.testimonials__slider {
-  width: 1250px;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: -webkit-flex;
-  display: -moz-box;
-  display: flex;
-}
-
-.testimonials__slider-item {
-  background: #ffffff;
-  -webkit-box-shadow: 6px 4px 50px rgba(215, 215, 215, 0.25);
-  -moz-box-shadow: 6px 4px 50px rgba(215, 215, 215, 0.25);
-  box-shadow: 6px 4px 50px rgba(215, 215, 215, 0.25);
-  width: 387px !important;
-  display: block;
-  padding-top: 40px;
-  padding-bottom: 40px;
-  margin-bottom: 30px;
-  margin-top: 30px;
-  margin-left: 15px !important;
-  margin-right: 10px !important;
-  z-index: 100;
-  position: relative;
-  min-height: 418px;
-  height: auto;
-  text-align: center;
-}
-
-.testimonials__slider-item-photo {
-  width: 88px;
-}
-
-.testimonials__slider-item-heading {
-  font-weight: bold;
-  font-size: 22px;
-  line-height: 28px;
-  text-align: center;
-  color: #2e6455;
-  margin-top: 16px;
-  margin-bottom: 12px;
-}
-
-.testimonials__slider-item-rate {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: -webkit-flex;
-  display: -moz-box;
-  display: flex;
-  -webkit-box-pack: center;
-  -webkit-justify-content: center;
-  -moz-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-}
-
-.testimonials__slider-item-comment {
-  max-width: 325px;
-  font-weight: normal;
-  font-size: 18px;
-  line-height: 150%;
-  text-align: center;
-  color: #15382f;
-  opacity: 0.8;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 16px;
-}
-
-.testimonials__flower-big {
-  max-width: 167px;
-  position: absolute;
-  top: -9%;
-  left: -5%;
-  z-index: 100;
-}
-
-.testimonials__flower-small {
-  max-width: 98px;
-  position: absolute;
-  top: 83%;
-  left: 95%;
-  z-index: 100;
-}
-
-.download_padding {
-  padding-top: 160px;
-  padding-bottom: 80px;
-}
-
-.download__iphone-img {
-  max-width: 704px;
-  position: relative;
-  left: -49%;
-}
-
-.download__paragraph {
-  margin-top: 22px;
-  margin-bottom: 41px;
-}
-
-.download__heading {
-  width: 490px;
-  font-weight: bold;
-  font-size: 48px;
-  line-height: 58px;
-  text-transform: capitalize;
-  color: #2e6455;
-}
-
-.social_padding {
-  padding-top: 31px;
-  padding-bottom: 31px;
-}
-
-.social_background {
-  background: #304343;
-}
-
-.social__plantyx-logo {
-  max-width: 148px;
-}
-
-.social__social-ico-wrapper {
-  width: 92px;
-  margin-left: auto;
-  -webkit-box-pack: justify;
-  -webkit-justify-content: space-between;
-  -moz-box-pack: justify;
-  -ms-flex-pack: justify;
-  justify-content: space-between;
+  margin-bottom: 69px;
 }
 
 .footer_padding {
-  padding-top: 16px;
-  padding-bottom: 17px;
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 
 .footer_background {
-  background: #000000;
+  background: rgba(59, 113, 253, 0.3);
 }
 
 .terms-footer__terms,
 .terms-footer__terms > a {
+  font-style: normal;
   font-weight: normal;
-  font-size: 14px;
-  line-height: 17px;
-  color: #ffffff;
+  font-size: 16px;
+  line-height: 26px;
+  font-feature-settings: 'liga' off;
+  color: #000000;
+}
+
+.terms-footer__terms > a:first-child {
+  margin-right: 32px;
 }
 
 .terms-footer__terms > a:hover {
@@ -461,19 +216,13 @@ a:hover {
 }
 
 .footer__copyright {
-  text-align: right;
+  font-style: normal;
   font-weight: normal;
-  font-size: 16px;
-  line-height: 19px;
+  font-size: 14px;
+  line-height: 24px;
   text-align: right;
-  color: rgba(151, 163, 200, 0.5);
-}
-
-.flower-bg-wrapper {
-  position: relative;
-  max-width: 1250px;
-  margin-left: auto;
-  margin-right: auto;
+  font-feature-settings: 'liga' off;
+  color: #000000;
 }
 
 .terms-policy__text-wrapper {
@@ -509,20 +258,18 @@ a:hover {
   font-size: 48px;
   line-height: 58px;
   text-transform: capitalize;
-  color: #2e6455;
+  color: #3B71FD;
 }
 
 .header__terms-policy {
-  padding-top: 73px;
+  padding-top: 26px;
 }
 
-.header__terms-policy-plantyx-logo {
-  max-width: 183px;
-}
-
-.terms-policy__bg-wrapper {
-  background: url("/img/terms-policy-bg-1.png") no-repeat left top,
-    url("/img/terms-policy-bg-2.png") no-repeat right top;
+.header__terms-policy-cleaner-logo {
+  width: 95px;
+  height: 95px;
+  filter: drop-shadow(0px 0px 13.0734px rgba(155, 139, 255, 0.25));
+  
 }
 
 .header__terms-policy-logo {
@@ -531,6 +278,7 @@ a:hover {
   width: 100%;
   margin-left: auto;
   margin-right: auto;
+  text-align: center;
 }
 
 .footer__terms-policy-links {
@@ -545,19 +293,23 @@ a:hover {
 }
 
 .error-404 {
+  font-family: 'Lato';
+  font-style: normal;
   font-weight: bold;
   font-size: 144px;
   line-height: 127.5%;
   letter-spacing: 0.075em;
-  color: #2E6455;
+  color: #3B71FD;
 }
 
 .error-text {
+  font-family: Lato;
+  font-style: normal;
   font-weight: bold;
   font-size: 20px;
   line-height: 24px;
   text-align: center;
-  color: #2E6455;
+  color: #3B71FD;
 }
 
 .error__wrapper {
@@ -571,19 +323,29 @@ a:hover {
 
 .not-found {
   margin-bottom: 30px;
+  font-family: Lato;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 69px;
+  line-height: 83px;
+  text-align: center;
+  color: #3B71FD;
 }
 
 .error-block-button {
+  font-family: Lato;
+  font-style: normal;
   font-weight: bold;
   font-size: 20px;
-  line-height: 51px;
+  line-height: 55px;
   text-align: center;
+  text-transform: capitalize;
   color: #FFFFFF;
+  background: #FFA931;
+  border-radius: 24px;
+  margin-top: 60px;
   width: 260px;
   height: 70px;
-  background: #3ECCCF;
-  border-radius: 100px;
-  margin-top: 60px;
 }
 
 .error-block-button:hover {
@@ -594,216 +356,12 @@ a:hover {
   width: 994px;
 }
 
-.svg-container {
-  z-index: -100 !important;
-}
-
-svg {
-  z-index: -100 !important;
-}
-
-svg .line1 {
-  stroke-dasharray: 1300;
-  -webkit-animation: dash 3s linear;
-  -moz-animation: dash 3s linear;
-  -o-animation: dash 3s linear;
-  animation: dash 3s linear;
-  -webkit-animation-delay: 0.2s;
-  -moz-animation-delay: 0.2s;
-  -o-animation-delay: 0.2s;
-  animation-delay: 0.2s;
-  -webkit-animation-fill-mode: forwards;
-  -moz-animation-fill-mode: forwards;
-  -o-animation-fill-mode: forwards;
-  animation-fill-mode: forwards;
-}
-
-svg .line2 {
-  stroke-dasharray: 1300;
-  -webkit-animation: dash 3s linear;
-  -moz-animation: dash 3s linear;
-  -o-animation: dash 3s linear;
-  animation: dash 3s linear;
-  -webkit-animation-delay: 0.5s;
-  -moz-animation-delay: 0.5s;
-  -o-animation-delay: 0.5s;
-  animation-delay: 0.5s;
-  -webkit-animation-fill-mode: forwards;
-  -moz-animation-fill-mode: forwards;
-  -o-animation-fill-mode: forwards;
-  animation-fill-mode: forwards;
-}
-
-svg .line3 {
-  stroke-dasharray: 1300;
-  -webkit-animation: dash 3s linear;
-  -moz-animation: dash 3s linear;
-  -o-animation: dash 3s linear;
-  animation: dash 3s linear;
-  -webkit-animation-delay: 0.9s;
-  -moz-animation-delay: 0.9s;
-  -o-animation-delay: 0.9s;
-  animation-delay: 0.9s;
-  -webkit-animation-fill-mode: forwards;
-  -moz-animation-fill-mode: forwards;
-  -o-animation-fill-mode: forwards;
-  animation-fill-mode: forwards;
-}
-
-svg .line4 {
-  stroke-dasharray: 1300;
-  -webkit-animation: dash 1s linear running;
-  -moz-animation: dash 1s linear running;
-  -o-animation: dash 1s linear running;
-  animation: dash 1s linear running;
-  -webkit-animation-delay: 1.3s;
-  -moz-animation-delay: 1.3s;
-  -o-animation-delay: 1.3s;
-  animation-delay: 1.3s;
-  -webkit-animation-fill-mode: forwards;
-  -moz-animation-fill-mode: forwards;
-  -o-animation-fill-mode: forwards;
-  animation-fill-mode: forwards;
-}
-
-svg .line5 {
-  stroke-dasharray: 1300;
-  -webkit-animation: dash 3s linear;
-  -moz-animation: dash 3s linear;
-  -o-animation: dash 3s linear;
-  animation: dash 3s linear;
-  -webkit-animation-delay: 2.3s;
-  -moz-animation-delay: 2.3s;
-  -o-animation-delay: 2.3s;
-  animation-delay: 2.3s;
-  -webkit-animation-fill-mode: forwards;
-  -moz-animation-fill-mode: forwards;
-  -o-animation-fill-mode: forwards;
-  animation-fill-mode: forwards;
-}
-
-svg .line6 {
-  stroke-dasharray: 1300;
-  -webkit-animation: dash 3s linear;
-  -moz-animation: dash 3s linear;
-  -o-animation: dash 3s linear;
-  animation: dash 3s linear;
-  -webkit-animation-delay: 2.8s;
-  -moz-animation-delay: 2.8s;
-  -o-animation-delay: 2.8s;
-  animation-delay: 2.8s;
-  -webkit-animation-fill-mode: forwards;
-  -moz-animation-fill-mode: forwards;
-  -o-animation-fill-mode: forwards;
-  animation-fill-mode: forwards;
-}
-
-svg .line7 {
-  stroke-dasharray: 1300;
-  -webkit-animation: dash 0.3s linear;
-  -moz-animation: dash 0.3s linear;
-  -o-animation: dash 0.3s linear;
-  animation: dash 0.3s linear;
-  -webkit-animation-delay: 3.2s;
-  -moz-animation-delay: 3.2s;
-  -o-animation-delay: 3.2s;
-  animation-delay: 3.2s;
-  -webkit-animation-fill-mode: forwards;
-  -moz-animation-fill-mode: forwards;
-  -o-animation-fill-mode: forwards;
-  animation-fill-mode: forwards;
-}
-
-.svg-container {
-  position: absolute;
-  width: 1280px;
-  padding-bottom: 1px;
-  vertical-align: middle;
-  overflow: hidden;
-  top: 71%;
-  left: -8%;
-  z-index: 100;
-  margin-left: 10px;
-}
-
-.container-relative {
-  position: relative;
-}
-
-@-webkit-keyframes dash {
-  from {
-    stroke-dashoffset: 1300;
-    fill-opacity: 0;
-    stroke: #01c3b7;
-  }
-  to {
-    stroke-dashoffset: 0;
-    fill-opacity: 1;
-    stroke: #01c3b7;
-    fill: #01c3b7;
-  }
-}
-
-@-moz-keyframes dash {
-  from {
-    stroke-dashoffset: 1300;
-    fill-opacity: 0;
-    stroke: #01c3b7;
-  }
-  to {
-    stroke-dashoffset: 0;
-    fill-opacity: 1;
-    stroke: #01c3b7;
-    fill: #01c3b7;
-  }
-}
-
-@-o-keyframes dash {
-  from {
-    stroke-dashoffset: 1300;
-    fill-opacity: 0;
-    stroke: #01c3b7;
-  }
-  to {
-    stroke-dashoffset: 0;
-    fill-opacity: 1;
-    stroke: #01c3b7;
-    fill: #01c3b7;
-  }
-}
-
-@keyframes dash {
-  from {
-    stroke-dashoffset: 1300;
-    fill-opacity: 0;
-    stroke: #01c3b7;
-  }
-  to {
-    stroke-dashoffset: 0;
-    fill-opacity: 1;
-    stroke: #01c3b7;
-    fill: #01c3b7;
-  }
-}
-
 @media (min-width: 1200px) and (max-width: 1400px) {
   .header__banner-img {
     width: 1213px;
     position: absolute;
     top: -61%;
     left: -72%;
-  }
-
-  .svg-container {
-    position: absolute;
-    width: 1146px;
-    padding-bottom: 1px;
-    vertical-align: middle;
-    overflow: hidden;
-    top: 74%;
-    left: 3%;
-    z-index: 100;
-    margin-left: 10px;
   }
 }
 
