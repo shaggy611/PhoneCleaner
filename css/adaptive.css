@@ -1,4 +1,7 @@
 @media (min-width: 375px) and (max-width: 767px) {
+  .wrapper {
+    overflow: scroll;
+  }
 
   ._third-heading-main-font {
     font-size: 20px;
@@ -22,9 +25,16 @@
     text-transform: capitalize;
   }
 
+  .display-mobile {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
   .header__logo {
     width: 52px;
     display: flex;
+    float: none;
   }
 
   .header_padding {
@@ -63,14 +73,14 @@
   }
 
   .header__banner-img {
-    max-width: 623px;
+    max-width: 360px;
     position: absolute;
-    left: 1%;
-    -webkit-transform: translate(-160px, -170px);
-    -moz-transform: translate(-160px, -170px);
-    -ms-transform: translate(-160px, -170px);
-    -o-transform: translate(-160px, -170px);
-    transform: translate(-160px, -170px);
+    left: 43%;
+    -webkit-transform: translate(-160px, 6px);
+    -moz-transform: translate(-160px, 6px);
+    -ms-transform: translate(-160px, 6px);
+    -o-transform: translate(-160px, 6px);
+    transform: translate(-160px, 6px);
   }
 
   .download__heading {
