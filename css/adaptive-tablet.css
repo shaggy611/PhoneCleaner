@@ -1,8 +1,4 @@
 @media (min-width: 768px) and (max-width: 1024px) {
-  .wrapper {
-    overflow: scroll;
-  }
-
   .display-mobile {
     display: block;
     margin-right: auto;

@@ -83,25 +83,6 @@
     transform: translate(-160px, 6px);
   }
 
-  .download__heading {
-    width: 335px;
-    text-align: center;
-    margin-left: auto;
-    margin-right: auto;
-    font-weight: bold;
-    font-size: 36px;
-    line-height: 47px;
-    text-transform: capitalize;
-    color: #2e6455;
-  }
-
-  .download__paragraph {
-    max-width: 335px;
-    margin-top: 24px;
-    margin-bottom: 50px;
-    text-align: center;
-  }
-
   .footer {
     position: inherit !important;
   }
