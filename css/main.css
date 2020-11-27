@@ -317,7 +317,7 @@ a:hover {
 }
 
 .error-block-404 {
-  padding-top: 229px;
+  padding-top: 123px;
   height: 90vh;
 }
 
@@ -346,6 +346,10 @@ a:hover {
   margin-top: 60px;
   width: 260px;
   height: 70px;
+}
+
+.header__404 {
+  padding-top: 72px !important;
 }
 
 .error-block-button:hover {
